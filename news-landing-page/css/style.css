@@ -1,0 +1,52 @@
+@import url(components/avatar.css);
+@import url(components/br.css);
+@import url(components/button.css);
+@import url(components/cards.css);
+@import url(components/banner.css);
+
+.grid-container {
+  display: grid;
+  height:100%;
+  grid-template-columns: 0.5fr 1.8fr 0.5fr;
+  grid-template-rows: 0.1fr 1fr;
+  grid-template-areas: ". . ." ". . .";
+}
+.grid-container > div {
+	height:100%;
+	text-align: center;
+}
+
+.title {
+	margin-top: 3em;
+}
+
+body {
+  display: grid;
+  width:100vw - 1vw !important; /*STUPIDEST HACK NEVER DO THIS PLEASE*/
+}
+
+main {
+  text-align: center;
+}
+
+.banner-footer {
+  height:20vh;
+  color:white;
+  justify-content: space-around;
+}
+
+.banner-footer h3 {
+  color:white;
+}
+
+.banner-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ".";
+}
+
+.banner-container > div {
+	text-align: center;
+}
+
