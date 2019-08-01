@@ -34,3 +34,31 @@ height:100%;
 	text-align: left;
 	margin:3.5em;
 }
+
+.card-cover-1 {
+  background:linear-gradient(135deg,
+              rgba(0,0,0,0.8) 0%,
+              rgba(0,0,0,0.2) 10%),
+              url('../../frog.jpg');
+              background-size: cover;
+background-position: center center;
+}
+
+.card-cover-4 {
+  background:linear-gradient(135deg,
+              rgba(0,0,0,0.8) 0%,
+              rgba(0,0,0,0.2) 10%),
+              url('../../2.jpg');
+              background-size: cover;
+background-position: center center;
+}
+
+.card-cover-5 {
+  background:linear-gradient(135deg,
+              rgba(0,0,0,0.8) 0%,
+              rgba(0,0,0,0.2) 10%),
+              url('../../tin.jpg');
+              background-size: cover;
+background-position: center center;
+}
+
